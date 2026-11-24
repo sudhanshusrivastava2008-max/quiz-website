@@ -256,3 +256,34 @@ label:hover {
 #submit:hover {
     background: #0d65d3;
 }
+/* Mobile fix for quiz */
+@media screen and (max-width: 600px) {
+    .quiz-section {
+        width: 100%;
+        margin: 0;
+        padding: 15px;
+    }
+
+    #quiz {
+        width: 100%;
+        padding: 15px;
+    }
+
+    ul {
+        width: 100%;
+    }
+
+    label {
+        width: 100%;
+        max-width: 100%;
+        font-size: 16px;
+    }
+
+    .question {
+        font-size: 22px;
+    }
+
+    #submit {
+        width: 100%;
+    }
+}
